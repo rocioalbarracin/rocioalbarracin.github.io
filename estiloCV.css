@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(113, 177, 161);
+}
+
+.encabezado {
+    display:flex;
+
+}
+
+.encabezado-foto {
+    width: 30%;
+    
+    
+}
+
+.encabezado-datos {
+    
+    width: 70%;
+    text-align:center;
+    padding-right: 400px;
+    
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(73, 68, 68);
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: rgb(73, 68, 68);
+}
+
+.resumen, .experiencia, .trabajo, .educacion, .habilidades {
+    
+    margin: 20px;
+}
+
+.resumen h3, .experiencia h3, .educacion h3, .cursos h3, .habilidades h3 {
+    margin-bottom: 10px;
+    
+}
+
+.trabajo {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.trabajo-desempeño {
+    width: 30%;
+}
+.trabajo-fecha {
+    width: 20%;
+}
+
+.trabajo-tareas {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.trabajo h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.trabajo p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.trabajo ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.titulos, .cursos {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.titulos h4, .cursos h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.titulos p, .cursos p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.habilidades {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.habilidades1 {
+    width: 50%;
+    padding-left: 60px;
+}
+
+.habilidades2 {
+    width: 50%;
+
+}
+
+.habilidades ul {
+    list-style-type:square ;
+    margin: 0;
+    padding: 0;
+}
+
+.habilidades li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.pie {
+    background-color: #daebd5;
+    padding: 20px;
+    text-align: center;
+}
+
+.pie p {
+    margin-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    margin-right: 10px;
+}
+
+.social img {
+    width:40px;
+}
+.icono {
+    width: 30px;
+    height: 30px;
+    
+}
